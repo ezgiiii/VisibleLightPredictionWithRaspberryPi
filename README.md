@@ -11,4 +11,4 @@ System Design and Features:
 -Breadboard
 -Jumpers
 
-All the sensors are connected to Raspberry Pi. Live temperature, humidity, precipitation, and light intensity data are logged in Raspberry Pi to built a dataset. Then, using this dataset, train and test samples are generated. By appling Linear Regression the predicted data is sent to Firebase. Also, I displayed the predicted data on a WinForms App. 
+All the sensors are connected to Raspberry Pi. Live temperature, humidity, precipitation, and light intensity data are logged in Raspberry Pi to built a dataset. Then, using this dataset, train and test samples are generated. By appling Linear Regression the predicted data is sent to Firebase. Also, The predicted data is get from Firebase and displayed on a WinForms App. 
